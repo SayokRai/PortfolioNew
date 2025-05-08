@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="Home" class="bg-[#121212] text-[#F4F4F4] m-[20px]">
+<body id="Home" class="font-[Rubik] bg-[#121212] text-[#F4F4F4] m-[20px]">
     <header>
         <nav class="px-[20px] py-[20px]">
             <div class="hidden sm:flex justify-between md:flex justify-between lg:flex justify-between ">
@@ -26,7 +26,7 @@
                     <a class="hover:text-[#0D6EFD]" href="#">Services</a>
                     <a class="hover:text-[#0D6EFD]" href="#">Skills</a>
                     <div>
-                        <a class="bg-[#58A6FF] p-[10px] rounded-[10px] hover:text-[#0D1117] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out"
+                        <a class="bg-[#58A6FF] p-[10px] border-[1.5px] border-[#30363d] rounded-[10px] hover:text-[#0D1117] hover:bg-[#79C0FF] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out"
                             href="#">Contact</a>
                     </div>
                 </div>
@@ -54,7 +54,10 @@
             </div>
             <div class="mt-[10px] sm:mt-[-6px] col-span-2">
                 <p class="text-[#C9D1D9] md:text-[15px] lg:text-[22px]">
-                    I’m Sayok Rai, a beginner web developer passionate about building beautiful and functional websites. I’m currently honing my skills in HTML, CSS, and JavaScript, with a strong desire to grow into a full stack developer. I believe in learning by doing, and I’m excited to keep improving with every project I take on.
+                    I’m Sayok Rai, a beginner web developer passionate about building beautiful and functional websites.
+                    I’m currently honing my skills in HTML, CSS, and JavaScript, with a strong desire to grow into a
+                    full stack developer. I believe in learning by doing, and I’m excited to keep improving with every
+                    project I take on.
                 </p>
             </div>
         </div>
@@ -70,13 +73,15 @@
                 Services
             </h1>
             <div class="grid md:grid-cols-2 lg:grid-cols-3">
-                <div class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58A6FF] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
+                <div
+                    class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58a6ff] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
                     <h2 class="text-center text-[20px]">
                         <b>
                             Static Website Design
                         </b>
                     </h2>
-                    <p>
+                    <div class="text-[#C9D1D9]">
+                        <p>
                         I create visually appealing,static websites like:
                     </p>
                     <ul>
@@ -90,15 +95,18 @@
                             -Event landing pages
                         </li>
                     </ul>
+                    </div>
                 </div>
 
-                <div class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58A6FF] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
+                <div
+                    class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58a6ff] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
                     <h2 class="text-center text-[20px]">
                         <b>
                             Website Redesign
                         </b>
                     </h2>
-                    <p>
+                    <div class="text-[#C9D1D9]">
+                        <p>
                         I offer to improve the look and feel of existing outdated sites by:
                     </p>
                     <ul>
@@ -112,15 +120,18 @@
                             -Enhancing colors, fonts, and spacing
                         </li>
                     </ul>
+                    </div>
                 </div>
 
-                <div class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58A6FF] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
+                <div
+                    class="bg-[#8B949E] m-[20px] p-[10px] rounded-[20px] border-3 border-[#58a6ff] hover:shadow-xl shadow-[#000000] transition-shadow duration:300 ease-in-out">
                     <h2 class="text-center text-[20px]">
                         <b>
                             Landing Page Design
                         </b>
                     </h2>
-                    <p>
+                    <div class="text-[#C9D1D9]">
+                        <p>
                         I design high-converting, simple, and fast landing pages.
                     </p>
                     <ul>
@@ -134,6 +145,7 @@
                             -Strong, action-driven CTAs
                         </li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -165,6 +177,44 @@
 
     </main>
 
+    <footer class="bg-[#161B22] border-t-[1px] border-[#30363d] py-[20px] px-[40px] m-[-20px] text-[#C9D1D9]">
+        <h2 class="text-[30px] text-white">
+            Get in touch
+        </h2>
+        <div class="md:grid grid-cols-2 gap-[10px]">
+            <form class="mt-[10px]">
+                <div class="grid grid-cols-2 gap-[10px]">
+                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text" name="name"
+                        id="name" placeholder="Name*">
+                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text" name="email"
+                        id="email" placeholder="Email Address*">
+                </div>
+                <div class="h-[100px]">
+                    <textarea class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] pt-[2px] h-full w-full mt-[10px] items-center" name="msg" id="msg" placeholder="Your Message*"></textarea>
+                </div>  
+                <br>
+                <button class="bg-[#58A6FF] text-[#F4F4F4] rounded-[10px] p-[5px] border-[1.5px] border-[#30363d] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out hover:bg-[#79C0FF] hover:text-[#0D1117]">
+                    <a href="#">Send Message</a>
+                </button>
+            </form>
+    
+            <div class="mt-[20px] md:mt-0">
+                <h3 class="text-[20px]">
+                    What about pricing?
+                </h3>
+                <p class="text-[#8b949e] text-[15px]">
+                    I'm flexible! I believe every project is unique, so I prefer to discuss your needs first and then agree on a fair price together. Whether it's something small or a bigger vision, we can find something that works for both of us.
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <i style="color: orangered;background-color: #fff" class="fa-brands fa-square-instagram"></i>
+            <i style="color: #007ab5;background-color: #fff" class="fa-brands fa-square-facebook"></i>
+            <i style="color: black;background-color: #fff" class="fa-brands fa-square-github"></i>
+            <i style="color: #007ab5;background-color: #fff" class="fa-brands fa-linkedin"></i>
+        </div>
+    </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>

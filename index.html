@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id="Home">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sayok Rai | Student at Code IT</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="Home" class="font-[Rubik] bg-[#121212] text-[#F4F4F4] m-[20px]">
+<body class="font-[Rubik] bg-[#121212] text-[#F4F4F4] m-[20px]">
     <header>
         <nav class="px-[20px] py-[20px]">
-            <div class="hidden sm:flex justify-between md:flex justify-between lg:flex justify-between ">
+            <div class="hidden sm:flex justify-between">
                 <div>
                     Sayok Rai
                 </div>
                 <div class="sm:flex gap-[40px] md:flex gap-[40px] lg:flex gap-[50px]">
                     <a class="hover:text-[#0D6EFD]" href="#Home">Home</a>
-                    <a class="hover:text-[#0D6EFD]" href="#">Projects</a>
-                    <a class="hover:text-[#0D6EFD]" href="#">Services</a>
-                    <a class="hover:text-[#0D6EFD]" href="#">Skills</a>
+                    <a class="hover:text-[#0D6EFD]" href="#Projects">Projects</a>
+                    <a class="hover:text-[#0D6EFD]" href="#Services">Services</a>
+                    <a class="hover:text-[#0D6EFD]" href="#Skills">Skills</a>
                     <div>
                         <a class="bg-[#58A6FF] p-[10px] border-[1.5px] border-[#30363d] rounded-[10px] hover:text-[#0D1117] hover:bg-[#79C0FF] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out"
-                            href="#">Contact</a>
+                            href="#Contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,8 @@
             </div>
             <div class="mt-[10px] sm:mt-[-6px] col-span-2">
                 <p class="text-[#C9D1D9] md:text-[15px] lg:text-[22px]">
-                    I’m Sayok Rai, a beginner web developer passionate about building beautiful and functional websites.
+                    <!-- Need to make this description better -->
+                    <b class="text-[#58a6ff]">I’m Sayok Rai</b>, a beginner web developer passionate about building beautiful and functional websites.
                     I’m currently honing my skills in HTML, CSS, and JavaScript, with a strong desire to grow into a
                     full stack developer. I believe in learning by doing, and I’m excited to keep improving with every
                     project I take on.
@@ -62,13 +63,13 @@
             </div>
         </div>
         <div>
-            <h1 class="text-center text-[30px]">
+            <h1 id="Projects" class="text-center text-[30px]">
                 Projects
             </h1>
             <!-- projects banaye paxi thapxu -->
         </div>
 
-        <div>
+        <div id="Services">
             <h1 class="text-center text-[30px]">
                 Services
             </h1>
@@ -82,19 +83,19 @@
                     </h2>
                     <div class="text-[#C9D1D9]">
                         <p>
-                        I create visually appealing,static websites like:
-                    </p>
-                    <ul>
-                        <li>
-                            -Personal portfolios
-                        </li>
-                        <li>
-                            -Restaurant menus
-                        </li>
-                        <li>
-                            -Event landing pages
-                        </li>
-                    </ul>
+                            I create visually appealing,static websites like:
+                        </p>
+                        <ul>
+                            <li>
+                                -Personal portfolios
+                            </li>
+                            <li>
+                                -Restaurant menus
+                            </li>
+                            <li>
+                                -Event landing pages
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -107,19 +108,19 @@
                     </h2>
                     <div class="text-[#C9D1D9]">
                         <p>
-                        I offer to improve the look and feel of existing outdated sites by:
-                    </p>
-                    <ul>
-                        <li>
-                            -Updating layout
-                        </li>
-                        <li>
-                            -Improving responsiveness
-                        </li>
-                        <li>
-                            -Enhancing colors, fonts, and spacing
-                        </li>
-                    </ul>
+                            I offer to improve the look and feel of existing outdated sites by:
+                        </p>
+                        <ul>
+                            <li>
+                                -Updating layout
+                            </li>
+                            <li>
+                                -Improving responsiveness
+                            </li>
+                            <li>
+                                -Enhancing colors, fonts, and spacing
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -132,19 +133,19 @@
                     </h2>
                     <div class="text-[#C9D1D9]">
                         <p>
-                        I design high-converting, simple, and fast landing pages.
-                    </p>
-                    <ul>
-                        <li>
-                            -Clear,compelling headline
-                        </li>
-                        <li>
-                            -Simple, user-friendly layout
-                        </li>
-                        <li>
-                            -Strong, action-driven CTAs
-                        </li>
-                    </ul>
+                            I design high-converting, simple, and fast landing pages.
+                        </p>
+                        <ul>
+                            <li>
+                                -Clear,compelling headline
+                            </li>
+                            <li>
+                                -Simple, user-friendly layout
+                            </li>
+                            <li>
+                                -Strong, action-driven CTAs
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -153,7 +154,7 @@
 
 
         <div>
-            <h1 class="text-center text-[30px]">
+            <h1 id="Skills" class="text-center text-[30px]">
                 Skills
             </h1>
 
@@ -177,42 +178,69 @@
 
     </main>
 
-    <footer class="bg-[#161B22] border-t-[1px] border-[#30363d] py-[20px] px-[40px] m-[-20px] text-[#C9D1D9]">
+    <footer id="Contact"
+        class="bg-[#161B22] border-t-[1px] border-[#30363d] py-[20px] px-[40px] m-[-20px] text-[#C9D1D9]">
         <h2 class="text-[30px] text-white">
             Get in touch
         </h2>
         <div class="md:grid grid-cols-2 gap-[10px]">
             <form class="mt-[10px]">
                 <div class="grid grid-cols-2 gap-[10px]">
-                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text" name="name"
-                        id="name" placeholder="Name*">
-                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text" name="email"
-                        id="email" placeholder="Email Address*">
+                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text"
+                        name="name" id="name" placeholder="Name*">
+                    <input class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] py-[2px]" type="text"
+                        name="email" id="email" placeholder="Email Address*">
                 </div>
                 <div class="h-[100px]">
-                    <textarea class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] pt-[2px] h-full w-full mt-[10px] items-center" name="msg" id="msg" placeholder="Your Message*"></textarea>
-                </div>  
+                    <textarea
+                        class="border-[1.3px] border-[#8b949e] rounded-[10px] pl-[6px] pt-[2px] h-full w-full mt-[10px] items-center"
+                        name="msg" id="msg" placeholder="Your Message*"></textarea>
+                </div>
                 <br>
-                <button class="bg-[#58A6FF] text-[#F4F4F4] rounded-[10px] p-[5px] border-[1.5px] border-[#30363d] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out hover:bg-[#79C0FF] hover:text-[#0D1117]">
+                <button
+                    class="bg-[#58A6FF] text-[#F4F4F4] rounded-[10px] p-[5px] border-[1.5px] border-[#30363d] hover:shadow-md/70 shadow-[#F6F8F9] transition-shadow duration:300 ease-in-out hover:bg-[#79C0FF] hover:text-[#0D1117]">
                     <a href="#">Send Message</a>
                 </button>
             </form>
-    
+
             <div class="mt-[20px] md:mt-0">
                 <h3 class="text-[20px]">
                     What about pricing?
                 </h3>
                 <p class="text-[#8b949e] text-[15px]">
-                    I'm flexible! I believe every project is unique, so I prefer to discuss your needs first and then agree on a fair price together. Whether it's something small or a bigger vision, we can find something that works for both of us.
+                    I'm flexible! I believe every project is unique, so I prefer to discuss your needs first and then
+                    agree on a fair price together. Whether it's something small or a bigger vision, we can find
+                    something that works for both of us.
                 </p>
             </div>
         </div>
 
-        <div>
-            <i style="color: orangered;background-color: #fff" class="fa-brands fa-square-instagram"></i>
-            <i style="color: #007ab5;background-color: #fff" class="fa-brands fa-square-facebook"></i>
-            <i style="color: black;background-color: #fff" class="fa-brands fa-square-github"></i>
-            <i style="color: #007ab5;background-color: #fff" class="fa-brands fa-linkedin"></i>
+        <div class="flex justify-between items-center mt-[20px] border-t-1 border-[#8b949e]">
+            <div class="mt-[10px]">
+                Sayok Rai
+            </div>
+            <div class="text-[10px] mt-[10px]">
+                <p>
+                    sayokrai2009@gmail.com
+                </p>
+                <p class="text-center">
+                    9829380122
+                </p>
+            </div>
+            <div class="text-[20px] flex gap-[10px] mt-[10px]">
+                <a href="https://www.instagram.com/sayokig/" target="_blank">
+                    <i style="background-image: linear-gradient(to top,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);background-clip: text;-webkit-text-fill-color: transparent" class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/SayokFB/" target="_blank">
+                    <i style="color: #007ab5;" class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://github.com/SayokRai" target="_blank">
+                    <i style="color: black;" class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sayok-rai-b0823235b/" target="_blank">
+                    <i style="color: #007ab5;" class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> -->
